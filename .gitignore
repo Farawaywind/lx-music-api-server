@@ -1,0 +1,39 @@
+# Git Ignore for lx-music-api-server
+
+# python
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*/__pycache__/*
+__pycache__/
+*.egg-info
+*.egg
+
+# pyinstaller
+*.spec
+dist
+build
+
+# project
+cache.db
+data.db
+test.py
+*/test.py
+logs
+config.json
+*.log
+
+# VSCode
+.history
+
+# Vim
+*.swp
+*.swp~
+
+# GVim
+*.un~
+*.un
+
+# temp script
+lx-music-source-example.js
